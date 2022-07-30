@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moduł 4 BEM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="body">
+    <header>
+        <h1 class="mainHeader">Więcej o mnie i inne ciekawostki</h1>
+    </header>
+    <nav>
+        <ul class="list">
+            <li class="listItem"><a class="link" href="#sekcja-Milo">Milo</a></li>
+            <li class="listItem"><a class="link" href="#sekcja-militaria">Zainteresowanie militariami</a></li>
+            <li class="listItem"><a class="link" href="#sekcja-tabela">Tabela wydatków</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section" id="sekcja-Milo">
+            <article>
+                <h2 class="header">Milo</h2>
+                <p>
+                    <img class="dogPhoto" src="images/Milo.jpg" alt="zdjęcie psa">
+                </p>
+                <p>Mam takiego psiaka. Ma około 1,5 roku i wabi się <strong>Milo</strong> tak samo jak pies Stanley
+                    Ipkiss-a z filmu <strong>Maska</strong>. Tu macie jego zdjęcie <a href="images/Milo.jpg"
+                        download="Milo.jpg">Zdjęcie
+                        Milo</a> możecie sobie ściągnąć i podziwiać 😜 Jego głównym zajęciem jest spanie i jedzenie. Od
+                    czasu do czasu zaszczeka (głównie w nocy przez co pan nie może spać)👌.</p>
+            </article>
+        </section>
+        <section class="section" id="sekcja-militaria">
+            <h2 class="header">Zainteresowanie militariami</h2>
+            <div class="container">
+                <p>
+                    Zajęcie, które pochłania mnóstwo mojego czasu to słuchanie <b>podcastów wojennych</b>. Przeglądam
+                    również
+                    strony
+                    porównujące potencjały militarne krajów z całego świata. Chyba najbardziej popularnym rankingiem
+                    jest
+                    <i>Global firepower</i>. Jeśli interesuje was taka tematyka, <em>zapraszam tutaj</em>
+                    <a title="Strona przedstawiająca ranking militarny oraz gospodarczy" rel="noreferrer noopener"
+                        target="_blank" href="https://www.globalfirepower.com/"> Global firepower 2022.</a> <br>Strona
+                    ta
+                    posłużyła
+                    mi do przygotowania tabeli przedstawiającej wydatki na obronność pięciu krajów. W tabeli podałem
+                    również
+                    aktywny personel oraz rezerwy tych krajów.
+                </p>
+            </div>
+        </section>
+        <h2 class="header" id="sekcja-tabela">Tabela wydatków</h2>
+        <table class="table">
+            <caption class="caption">GLOBAL FIREPOWER 2022</caption>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="col">Country</th>
+                <th class="tableCell tableHeader" scope="col">Defense Budgets</th>
+                <th class="tableCell tableHeader" scope="col">Active service</th>
+                <th class="tableCell tableHeader" scope="col">Active seserves</th>
+            </tr>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">USA</th>
+                <td class="tableCell">$ 770,000,000,000</td>
+                <td class="tableCell">1,390,000</td>
+                <td class="tableCell">442,000</td>
+            </tr>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">China</th>
+                <td class="tableCell">$ 230,000,000,000</td>
+                <td class="tableCell">2,000,000</td>
+                <td class="tableCell">510,000</td>
+            </tr>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">Russia</th>
+                <td class="tableCell">$ 154,000,000,000</td>
+                <td class="tableCell">850,000</td>
+                <td class="tableCell">250,000</td>
+            </tr>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">United Kingdom</th>
+                <td class="tableCell">$ 68,000,000,000</td>
+                <td class="tableCell">194,000</td>
+                <td class="tableCell">37,000</td>
+            </tr>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">Germany</th>
+                <td class="tableCell">$ 50,300,000,000</td>
+                <td class="tableCell">184,000</td>
+                <td class="tableCell">15,000</td>
+            </tr>
+        </table>
+        <button class="js-button">Włącz <span class="js-themeName">ciemny</span> motyw</button>
+    </main>
+    <footer class="footer">Copyright 2022 by me 🤙🏻</footer>
+</body>
+
+</html>

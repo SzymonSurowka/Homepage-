@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    line-height: 1.5;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableCell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.tableHeader {
+    background-color: rgb(31, 31, 94);
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.tableRow:nth-child(even) {
+    background: #eee;
+}
+
+.tableRow:hover {
+    background-color: #ddd;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.section {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    outline: 2px solid rgb(31, 31, 94);
+    outline-offset: 2px;
+    box-shadow: inset 5px -5px 24px 7px #484096;
+    text-shadow: 1px 2px 5px #ccc;
+}
+
+.dogPhoto {
+    width: 200px;
+}
+
+.listItem {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    color: white;
+    background-color: rgb(31, 31, 94);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.link:visited {
+    color: white;
+}
+
+.link:focus {
+    outline: 2px solid currentColor;
+}
+
+.link:hover {
+    color: red;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.link:active {
+    color: darkred;
+}
+
+.dark {
+    background-color: #ccc;
+}
+
+.footer {
+    padding: 10px;
+}
+
+.mainHeader {
+    color: white;
+    background-color: rgb(31, 31, 94);
+}
+
+.header {
+    color: grey;
+}
+
+.js-button {
+    padding: 10px;
+    color: green;
+    border-radius: 5px;
+}
