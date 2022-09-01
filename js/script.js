@@ -22,5 +22,5 @@
         welcome();
     };
 
-init();
+    init();
 }
